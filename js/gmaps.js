@@ -642,6 +642,11 @@ GMaps.prototype.createMarker = function(options) {
     }
   });
 
+  google.maps.event.addListener(marker, 'dblclick', function() {
+    this.details = details;
+    window.open("https://www.google.it/maps/place/Safetec+Srl/@45.5658,9.35856,15z/data=!4m2!3m1!1s0x0:0x18aa586e6a8dc06e?sa=X&ved=0ahUKEwjJ486igYnXAhUsIcAKHTXJAGIQ_BIIgAEwCg");
+  });  
+
   google.maps.event.addListener(marker, 'rightclick', function(e) {
     e.marker = this;
 

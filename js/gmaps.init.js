@@ -33,10 +33,9 @@ function map() {
     map.addMarker({
 	lat: 45.5654785,
 	lng: 9.3584954,
-	icon: image/* ,
-	 title: '',
+	icon: image,
+	 title: 'Safetec Srl',
 	 infoWindow: {
-	 content: '<p>HTML Content</p>'
-	 }*/
+	 content: "Safetec Srl" }
     });
 }
