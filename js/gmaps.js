@@ -644,7 +644,7 @@ GMaps.prototype.createMarker = function(options) {
 
   google.maps.event.addListener(marker, 'dblclick', function() {
     this.details = details;
-    window.open("https://www.google.it/maps/place/Safetec+Srl/@45.5658,9.35856,15z/data=!4m2!3m1!1s0x0:0x18aa586e6a8dc06e?sa=X&ved=0ahUKEwjJ486igYnXAhUsIcAKHTXJAGIQ_BIIgAEwCg");
+    window.open("https://www.google.it/maps/place/48022+Lugo+RA/@44.4237036,11.8742582,13z/data=!3m1!4b1!4m5!3m4!1s0x477e1cd2aeae5897:0x843c2571e3b3ba9c!8m2!3d44.4218314!4d11.9116835");
   });  
 
   google.maps.event.addListener(marker, 'rightclick', function(e) {
